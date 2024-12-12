@@ -8,7 +8,7 @@ def go_to_cafe(friends: list, cafe: Cafe) -> None | str:
         try:
             cafe.visit_cafe(friend)
         except VaccineError:
-            return "All friends should be vaccinated"
+            return git commit -am 'Solution'"All friends should be vaccinated"
         except NotWearingMaskError:
             masks_to_buy += 1
     if masks_to_buy > 0:
